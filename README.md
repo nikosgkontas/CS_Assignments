@@ -1,2 +1,2 @@
 # DSML_Assignment_1
-This repository contains the problems from my studies.
+This repository contains assignments from my studies.
