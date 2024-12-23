@@ -1,0 +1,45 @@
+Topic 1: Tabular and Graphical Representation
+data source: https://www.kaggle.com/datasets/uom190346a/disease-symptoms-and-patient-profile-dataset
+
+A. Inspect the dataset and find the number of dataset records, the number of numeric attributes, and the value of the attribute "Disease" of the 3rd record.
+
+B. Create a contigency table with absolute frequencies for attributes "Fever" and "Cough". The table should also include the sum of each row/column.
+
+C. Create a bar chart showing the frequency of existence (Yes) or absence (No) of symptom "Fatigue" among the patients.
+
+D. Create a pie chart to show the distribution of patients across different "Cholesterol Level" categories.
+
+E. Create box plots to show the age distribution of patients with different diseases.
+
+
+Topic 2: Correlation
+data source: https://www.kaggle.com/datasets/lainguyn123/student-performance-factors/data
+
+A. Read the dataset "StudentData", inspect it using the str() function.
+
+B. Remove the non-numeric attributes of the initial dataset by creating a new subset called "StudentDataNumeric", including only the attributes with numeric values.
+
+C. Use the "StudentDataNumeric" subset to calculate the correlation matrix (using Pearson's coef). Visualize the identified correlation matrix by creating the corresponding heatmap.
+
+D. Fetch the Pearson's rank correlation coefficient for the pairs Attendance-Hours_Studied, Attendance-Exam_Score, Tutoring_Sessions-Previous_Scores, Physical_Activity-Sleep_Hours.
+
+
+Topic 3: Data Frames
+data source: https://www.kaggle.com/datasets/christofferms/pokemon-with-stats-and-image
+
+A. Load the Pokedex dataset, inspect it using str() function and remove the column containing the image path.
+   Then, set the row names according to the contents of attrinute "Name" and remove this column afterwards.
+   Finally, fetch the entire crecord of the Pokemon named "Omastar".
+
+B. Identify the numbe of Pokemon that do not have a second type.
+   Then, identify the number of Pokemon whose "Speed" is less than 60.
+
+C. Calculate the average attack value of all "Water" type Pokemon (type1 or type2).
+   Identify the name of the "Fairy" type Pokemon (type1 or type2) with the greatest "HP" value.
+
+D. Calculate the normalized values fot attributes "HP", "Attack". "Defence" using the min-max formula and insert them in three new columns named "NormHP", "NormAttack", NormDefence" respectively.
+   Find the names of Pokemon with the 3 highest NormHP values, the median value of NormAttack, the average value of NormDefence.
+
+E. Calculate and insert in a new column the values of a new metric called "Performance" defined as the NormHP*NormAttack*NormDefense + 0.0002. 
+  Create a new ordinal attribute called "Grade" which may take the values "Weak", "Normal" and "Strong" that correspond to the following intervals (0, 0.15], (0.15, 0.2], and (0.2, 1], for the values of the Performance attribute respectively.
+
