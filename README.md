@@ -8,4 +8,4 @@ This repository contains multiple data analysis and vizualization exercises give
 
 Each topic focuses on specific datasets and tasks designed to showcase data exploration, statistical analysis, and data manipulation techniques.
 
-Find more on Problem_Statment.txt
+Find more on Problem_Statement.txt
